@@ -1,0 +1,49 @@
+.cardBackground{
+  background-color: transparent;
+  border: none;
+  margin-top: 90px;
+  margin-left: 143px;
+  width: 635px;
+  height: 285px;
+}
+.cardBackgroundTitle{
+  font-family: SFDisplay-black;
+  font-weight: bold;
+  font-size: 61px;
+  line-height: 61px;
+  text-transform: uppercase;
+  color: #c3002f;
+}
+.cardBackgroundText{
+  font-family: SFDisplay-light;
+  font-weight: 300;
+  font-size: 25px;
+  color: #343434;
+}
+.cardBackgroundButton{
+  color: #fff;
+  background-color: #c3002f;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-weight: bold;
+  height: 50px;
+  width: 350px;
+  margin-top: 53px;
+  padding-left: 40px;
+}
+.cardBackgroundButtonText{
+  color: #fff;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.cardBackgroundButtonText:hover{
+  color: #fff;
+}
+.cardBackgroundButtonArrow{
+  color: #fff;
+  margin-top: 10px;
+  margin-right: 25px;
+  text-decoration: none;
+}

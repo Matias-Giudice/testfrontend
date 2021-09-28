@@ -1,0 +1,91 @@
+.footer{
+  margin: 0;
+  padding: 40px 0;
+  box-sizing: border-box;
+  background-color: #000;
+  font-family: SFDisplay-bold;
+}
+.footerContainer{
+  margin: auto;
+  max-width: 1170px;
+}
+.footerBrandSlogan{
+  margin-left: 17px;
+}
+.footerTitle{
+  font-family: SFDisplay-heavy;
+  font-size: 25px;
+  color: #fff;
+}
+.footerRow{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footerCol{
+  width: 25%;
+  padding: 0 15px;
+}
+.footerCol h4{  
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #b5b5b5;
+  position: relative;
+}
+.footerCol ul li:not(:last-child){  
+  margin-bottom: 10px;
+}
+.footerCol ul li a{  
+  font-size: 13px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #fff;
+}
+#footerAlert{
+  color: #fff;
+}
+.footerSocialLinks a{  
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-top: -7%;
+  margin-left: -1%;
+  text-align: center;
+  line-height: 40px;
+  color: #fff;
+}
+.footerItem{
+  margin-left: -12%;
+  list-style: none;
+}
+.footerLine{
+  color: #fff;
+}
+.footerRights{
+  margin-left: 10%;
+}
+.footerRightsText{
+  font-size: 13px;
+  font-weight: bold;
+  color: #b5b5b5;
+}
+@media(max-width: 767px){
+  .footerCol{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  .footerItem{
+    margin-left: -10%;
+    list-style: none;
+  }
+}
+@media(max-width: 574px){
+  .footerCol{
+    width: 100%;
+    margin-left: 1%;
+  }
+  .footerItem{
+    margin-left: -7%;
+    list-style: none;
+  }
+}

@@ -1,0 +1,70 @@
+.card{
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  height: 390px;
+  width: 350px;
+}
+.card:hover{
+  border: 1px solid #C1C1C1; 
+  border-radius: 10px;
+}
+.cardImg{
+  width: 340px;
+  height: 150px;
+}
+.cardBody{
+  padding-top: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.cardTitle {
+  font-size: 25px;
+  color: #343434;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "SFDisplay-semibold";
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.cardDivision{
+  border-top: 1px solid #e3e2e2;
+}
+.cardContentCenter{
+  margin-top: 10px;
+  margin-bottom: -13px;
+}
+.cardLeftTextPrice {
+  color: #C1C1C1;
+  font-size: 13px;
+  font-weight: bold;
+  
+}
+.cardRightTextPrice {
+  color: #343434;
+  font-size: 15px;
+  font-weight: bold;
+}
+.cardContentDetails{
+  margin-top: 10px;
+}
+.cardDetail,
+.cardDetail:hover,
+.cardArrowIcon{
+  color: #c3002f !important;
+  text-decoration: none;
+  font-weight: bold;
+}
+.cardLeftText {
+  color: #C1C1C1;
+  font-size: 12px;
+  margin-top: 8px;
+}
+@media(max-width: 1196px){
+  .card{
+    margin-right: -15px;
+    margin-left: -15px;
+  }
+}
